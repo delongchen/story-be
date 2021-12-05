@@ -1,0 +1,27 @@
+{
+  "name": "wx-story",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "ts-node src/utils/fs.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5",
+    "@types/koa": "^2.13.4",
+    "@types/node": "^16.11.11",
+    "js-yaml": "^4.1.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@types/koa-router": "^7.4.4",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1"
+  }
+}
